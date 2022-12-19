@@ -12,6 +12,6 @@ namespace Api_products.Models
 
         public virtual DbSet<ProductEntity> Products { get; set; }
     }
-
     // dependency-inversion-principle, har gjort depency injection. 
+
 }

@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Api_products.Controllers
 {
     // Jag använder mig av Dependency Inversion Principle. Högnivåmoduler bör inte vara beroende av lågnivåmoduler. Båda bör bero på abstraktioner.
-    // Därför har jag gjort en fil som heter Producthandler så att den inte blir beroende. Jag har också gjort depency incjection i min Sqlcontext fil. 
+    // Därför har jag gjort en fil som heter Producthandler så att den inte blir beroende. Jag har också gjort depency incjection i min Sqlcontext och program filen. 
     // får även in Single Responsibility Principle genom att göra på detta sätt. 
 
     [Route("api/[controller]")]
